@@ -52,6 +52,10 @@ a:active {
     color: #FF9A8A;
 }
 
+#profile {
+    text-align: center;
+}
+
 img {
     margin-left: 20px;
 }
