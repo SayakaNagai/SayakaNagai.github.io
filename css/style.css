@@ -1,7 +1,8 @@
 @charset "utf-8"
 
 body {
-
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 h1 {
@@ -52,13 +53,14 @@ a:active {
     color: #FF9A8A;
 }
 
-#profile {
-    text-align: center;
-}
-
 img {
     margin-left: 20px;
 }
+
+.wrapper {
+    margin : 0 auto 0 auto;
+    width: 900px;
+} 
 
 ul.navi {
     text-align: center;
@@ -68,4 +70,14 @@ ul.navi li {
     list-style:none;
     padding:3px 10px;
     display: inline-block;
+}
+
+p .float{
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+#music_list li{
+    margin-left: 2em;
 }
