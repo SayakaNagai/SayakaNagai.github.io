@@ -75,9 +75,8 @@ ul.navi li {
 p .float{
     float: left;
     margin-right: 2em;
-    margin-bottom: 1em;
 }
 
-#music_list li{
-    margin-left: 2em;
+#music_list ol li{
+    margin-left: 20px;
 }
