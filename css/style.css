@@ -1,9 +1,33 @@
 @charset "utf-8"
 
 //smart phone setting
-article,aside,canvas,details,figcaption,figure,
-header,footer,main,menu,nav,section,summary {
-  display: block;
+@media screen and (max-width: 480px) {
+    
+h1 {
+    margin: 20px 0 20px 0;
+    padding: 0 0 0 0;
+    line-height: 0;
+    text-align: center;
+    font-family: “Century Gothic”,“sans-serif”;
+}
+
+h2 {
+    color: #F70733;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    border-bottom-color: #442220;
+    font-family: “Century Gothic”,“sans-serif”;
+}
+
+p {
+    font-size: 15px ; 
+    color: #442220;
+    font-family: “Century Gothic”,“sans-serif”;
+}
 }
 
 body {
