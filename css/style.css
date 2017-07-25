@@ -1,8 +1,15 @@
 @charset "utf-8"
 
+//smart phone setting
+article,aside,canvas,details,figcaption,figure,
+header,footer,main,menu,nav,section,summary {
+  display: block;
+}
+
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    -webkit-text-size-adjust: 100%;
 }
 
 h1 {
