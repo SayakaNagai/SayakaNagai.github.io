@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Calculation</title>
+    <script type="text/javascript" src="calc.js"></script>
   </head>
   <body>
     <form name="js">
@@ -10,25 +11,5 @@
       <input type="button" value="clear" onclick="clr()"><br>
       Answer: <input type="text" name="ans" value=""><br>
     </form>
-    
-    <script>
-
-      function tbox1(){      
-      var str=document.js.txtb.value;
-      ans = eval(str);
-      if( ans != isNaN ){
-      document.js.ans.value=ans;
-      }else{
-      document.js.txtb.value="";
-      alert("数式を入力してください!");
-      }
-      }
-
-      function clr(){
-      document.js.txtb.value="";
-      document.js.ans.value="";
-      }
-      
-    </script>
   </body>
 </html>
