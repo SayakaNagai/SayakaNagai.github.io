@@ -1,3 +1,5 @@
+//最初の100個の自然数について二乗の和と和の二乗の差を求めよ.
+
 #include <stdio.h>
 #include <math.h>
 
