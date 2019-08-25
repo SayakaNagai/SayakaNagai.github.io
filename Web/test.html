@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>機器選定Webアプリ</title>
+    <script type="text/javascript" src="machine.js"></script>
+  </head>
+  
+  <body>
+    <h1>数値入力</h1>
+    <p>機器を選定します。</p>
+    <form>
+      <ul>
+	<li>
+          <label for="textForm1">圧力(kg/m&sup2): </label>
+          <input type="text" id="textForm1">
+	</li>
+	<li>
+          <label for="textForm2">温度(K): </label>
+          <input type="text" id="textForm2">
+	</li>
+      </ul>
+      <p>今回は圧力が0より大きい条件で、温度200以上300以下なら機器A、300より大きければ機器Bが出る。</p>
+      <input id="Button1" type="button" value="出力" onclick="exec();"/>
+    </form>
+    <h2>選定機器</h2>
+    <div id="output"></div>
+    <div id="output2"></div>
+  </body>
+  
+</html>
